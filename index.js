@@ -404,7 +404,6 @@ eapp.all('/*', function(req, res, next) {
 var httpServer = http.createServer(eapp);
 httpServer.listen(8080);
 
-
 const express2 = require('express')
 const bodyParser = require('body-parser');
 const { log } = require('firebase-functions/logger');
